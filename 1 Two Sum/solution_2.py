@@ -1,3 +1,5 @@
+# 4070 ms	15 MB
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         enums = enumerate(nums)
