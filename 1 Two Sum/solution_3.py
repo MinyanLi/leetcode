@@ -1,6 +1,6 @@
 # 136 ms	15.4 MB
 # put the target - num item subtraction result in to a dictionary with index
-# look for matching
+# look for matching (less searching)
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
