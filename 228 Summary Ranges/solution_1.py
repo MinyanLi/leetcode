@@ -1,3 +1,5 @@
+# 58 ms	13.9 MB
+
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         if len(nums) < 1:
