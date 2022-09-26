@@ -1,3 +1,5 @@
+# 77 ms	14 MB
+
 class Solution:
     def modifyString(self, s: str) -> str:
         
