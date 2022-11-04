@@ -1,3 +1,5 @@
+# Time Limit Exceeded
+
 # brutely iterate every substring
 
 class Solution:
