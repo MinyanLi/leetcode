@@ -1,5 +1,5 @@
-Runtime 1733 ms Beats 5.1%
-Memory 15.6 MB Beats 20.88%
+# Runtime 1733 ms Beats 5.1%
+# Memory 15.6 MB Beats 20.88%
 
 class Solution:
     def reverseVowels(self, s: str) -> str:
