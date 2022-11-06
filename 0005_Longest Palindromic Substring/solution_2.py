@@ -3,6 +3,12 @@
 # Runtime 7355 ms Beats 7.97%
 # Memory 14 MB Beats 27.82%
 
+
+# function check palindromic
+# check longest string whether palindromic
+# check minus 1 substring
+# keep minus 1 until palindromic found
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
 
