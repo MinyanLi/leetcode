@@ -1,10 +1,18 @@
-from functools import lru_cache
+# Runtime 47 ms Beats 71.35%
+# Memory 13.9 MB Beats 57.47%
 
-@lru_cache     # need to use cache, otherwise will calculate again and again and overtime
-def f(n):
-    if n > 2:
-        n = f(n-1) + f(n-2)
-    return n
 
-n = f(n)
-return n
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        
+        
+        from functools import lru_cache   # need cache to shorten time
+
+        @lru_cache
+        def f(n):
+            if n > 2:
+                n = f(n-1) + f(n-2)
+            return n
+
+        n = f(n)
+        return n
