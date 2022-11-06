@@ -1,5 +1,8 @@
 # overtime
 
+# Runtime 7355 ms Beats 7.97%
+# Memory 14 MB Beats 27.82%
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
 
