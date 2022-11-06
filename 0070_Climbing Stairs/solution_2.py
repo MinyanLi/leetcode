@@ -1,8 +1,10 @@
-# 15ms
+from functools import lru_cache
 
-class Solution:
-    def climbStairs(self, n: int) -> int:
-        @cache
-        def fib(n):
-            return fib(n-1) + fib(n-2) if n > 1 else n
-        return fib(n+1)
+@lru_cache     # need to use cache, otherwise will calculate again and again and overtime
+def f(n):
+    if n > 2:
+        n = f(n-1) + f(n-2)
+    return n
+
+n = f(n)
+return n
