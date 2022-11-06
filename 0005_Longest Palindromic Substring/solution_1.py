@@ -1,5 +1,8 @@
 # overtime
 
+# function check palindromic
+# slide through every character and every substring
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
 
